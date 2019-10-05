@@ -15,9 +15,9 @@
 	$gClient->setClientId("786201381001-m5kp1flqqh227sb216a0pkbiifb8dggr.apps.googleusercontent.com");
 	$gClient->setClientSecret("OFp1EUo-N36plfTH3Ukmt_iG");
 	$gClient->setApplicationName("Pontus-Slack-Bot");
-	$gClient->setRedirectUri("http://localhost/pontus-slackbot-drive-master/pontus-slackbot-drive/g-callback.php");
+	$gClient->setRedirectUri("https://pontus-slackbot.herokuapp.com/g-callback.php");
 	$gClient->addScope("https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email");	
-	$con = new mysqli('localhost', 'root','' ,'pontus');
+	$con = new mysqli('s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'jse831u4uvmhykrg','ji7u73u42vplhnzb' ,'ikhgynl5yi6ppldx');
     if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
 }	
