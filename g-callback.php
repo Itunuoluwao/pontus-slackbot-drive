@@ -37,7 +37,6 @@
 		mysqli_query($con,$sql2);
 	 }
 	
-
 	header('Location: google_dashboard.php');
 	exit();
 ?>

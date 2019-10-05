@@ -20,5 +20,6 @@
 	$con = new mysqli('s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'jse831u4uvmhykrg','ji7u73u42vplhnzb' ,'ikhgynl5yi6ppldx');
     if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
-}	
+}
+	
 ?>

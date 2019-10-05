@@ -17,36 +17,7 @@
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-
-    input,
-    .btn {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 40px;
-    margin: 5px 0;
-    opacity: 0.85;
-    display: inline-block;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration: none;
-    }
-
-    input:hover,
-    .btn:hover {
-    opacity: 1;
-    color: white;
-    }
     
-    .google {
-    background-color: #dd4b39;
-    color: white;
-    }
-
-
-    
-    </style>
     <title>Pontus Drive SlackBot</title>
     
 
